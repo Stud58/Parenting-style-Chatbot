@@ -2,7 +2,7 @@ import openai
 import gradio as gr
 import sys
 
-openai.api_key = "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"
+openai.api_key = "Api-key"
 
 def check_api_key():
     if not openai.api_key:
